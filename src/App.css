@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.container-login {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+form.form-container {
+  margin: 15% auto;
+  width: 350px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  padding-top: 30px;
+}
+
+.img {
+  height: 200px;
+  width: fit-content;
+}
